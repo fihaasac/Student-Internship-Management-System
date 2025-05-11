@@ -245,4 +245,8 @@ INSERT INTO users (name, email, password, role)
 VALUES ('Company', 'company@example.com', 'company123', 'company');
 
 ---
-
+✅ User Roles
+Role	Access Privileges
+Student	Register, login, apply to internships
+Company	Register, post internships, view applicants
+Admin	Manage users, approve posts, view stats
